@@ -8,9 +8,6 @@ import com.employee.api.entity.Employee;
 
 public interface EmployeeDaoable {
 
-	// create the desired table if not present
-	public void createTable();
-
 	// get all employees
 	public List<Employee> getAllEmployees();
 

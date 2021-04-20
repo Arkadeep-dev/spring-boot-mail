@@ -4,7 +4,11 @@ import java.util.List;
 import java.util.Optional;
 
 import com.employee.api.entity.Employee;
-
+/**
+ * interface for employee service class
+ * @author ArkadeepD
+ * 
+ */
 public interface EmployeeServiceable {
 
 	// get all the employees

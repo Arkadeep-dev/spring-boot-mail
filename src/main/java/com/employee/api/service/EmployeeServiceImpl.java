@@ -9,9 +9,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.employee.api.dao.EmployeeDaoable;
-import com.employee.api.email.service.EmailServiceable;
 import com.employee.api.entity.Employee;
 
+/**
+ * implementation class of employee serviceable
+ * @author ArkadeepD
+ *
+ */
 @Service
 public class EmployeeServiceImpl implements EmployeeServiceable {
 
